@@ -37,5 +37,6 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'): # Stop kode yang berjalan dengan menekan tombol 'q' pada keyboard
         break # keluar dari proses
 
+
 cap.release()
 cv2.destroyAllWindows() 
